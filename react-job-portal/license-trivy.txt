@@ -1,0 +1,26 @@
+
+Report Summary
+
+┌────────────────────────────┬──────┬──────────┐
+│           Target           │ Type │ Licenses │
+├────────────────────────────┼──────┼──────────┤
+│ backend/package-lock.json  │ npm  │    -     │
+├────────────────────────────┼──────┼──────────┤
+│ frontend/package-lock.json │ npm  │    -     │
+├────────────────────────────┼──────┼──────────┤
+│ backend/package-lock.json  │  -   │    1     │
+└────────────────────────────┴──────┴──────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+backend/package-lock.json (license)
+===================================
+Total: 1 (UNKNOWN: 0, LOW: 1, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+
+┌─────────┬─────────┬────────────────┬──────────┐
+│ Package │ License │ Classification │ Severity │
+├─────────┼─────────┼────────────────┼──────────┤
+│ ms      │ MIT     │ notice         │ LOW      │
+└─────────┴─────────┴────────────────┴──────────┘
